@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do You Love Me? ❤️</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Draggable Papers -->
+  <div class="paper">
+    <p>Drag me around!</p>
+    <p>Do you love me?</p>
+    <div class="buttons">
+      <button id="yesButton">Yes</button>
+      <button id="noButton">No</button>
+    </div>
+  </div>
+  <div class="paper red">
+    <p>You're amazing! ❤️</p>
+  </div>
+
+  <!-- Draggable Polaroids -->
+  <div class="polaroid">
+    <img src="https://via.placeholder.com/200" alt="Photo 1">
+    <p>Memories</p>
+  </div>
+  <div class="polaroid">
+    <img src="https://via.placeholder.com/200" alt="Photo 2">
+    <p>Adventures</p>
+  </div>
+  <div class="polaroid">
+    <img src="https://via.placeholder.com/200" alt="Photo 3">
+    <p>Sunset</p>
+  </div>
+  <div class="polaroid">
+    <img src="https://via.placeholder.com/200" alt="Photo 4">
+    <p>Beach Day</p>
+  </div>
+  <div class="polaroid">
+    <img src="https://via.placeholder.com/200" alt="Photo 5">
+    <p>Mountains</p>
+  </div>
+  <div class="polaroid">
+    <img src="https://via.placeholder.com/200" alt="Photo 6">
+    <p>City Lights</p>
+  </div>
+
+  <!-- Emotional Message -->
+  <div id="emotionalMessage" class="hidden">
+    <h1>You've Made Me the Happiest Person! ❤️</h1>
+    <p>Every moment with you is a treasure. I can't wait to spend forever with you. I love you to the moon and back! 🌙✨</p>
+  </div>
+
+  <!-- Email Modal -->
+  <div id="emailModal" class="hidden">
+    <div class="email-content">
+      <div class="email-header">
+        <span class="close-btn">&times;</span>
+        <h2>💌 New Message</h2>
+      </div>
+      <div class="email-body">
+        <p>From: Your Admirer ❤️</p>
+        <p>Subject: My Heart's Confession</p>
+        <div class="typing-container">
+          <div id="typedMessage"></div>
+          <div class="cursor"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hearts Container -->
+  <div class="hearts-container"></div>
+
+  <!-- Audio for Song -->
+  <audio id="valentineSong" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
